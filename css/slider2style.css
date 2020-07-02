@@ -1,0 +1,756 @@
+html, body, div, span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    height: 10000px;
+}
+.upper-bar{
+    background-color:  #11117a;
+    color: #FFF;    
+}
+.upper-bar .info {
+    margin: 15px 0;
+} 
+@media (max-width:576px){
+    .upper-bar .info :first-child{
+        margin-bottom: 0px;
+        
+    }
+
+}
+.upper-bar span{
+    color:#bfc6c9;
+}
+.upper-bar .get-qoute{
+  display:inline-block;
+  border:1px solid 
+  #b30536
+   ;
+  padding: 2px 10px;
+  margin-left:20px;
+}
+@media (max-width:576px){
+    .upper-bar .get-qoute{
+        margin-left:5px ;
+        border:none;
+    }
+}
+.navbar-brand > span {
+    /*EliteCorp*/
+    font-size: 40px;
+ }
+.navbar-brand span:first-child{
+    /*Elite*/
+    font-weight: bold;
+   color:#0c0c5e;
+}
+.navbar-brand span:last-child{
+    /*Crop*/
+    color:
+    #b30536
+    ;
+ }
+ .navbar-light .navbar-nav .nav-link{
+     /*Home Work contact.....*/
+     font-size: 16px;
+     text-transform:uppercase;
+     margin-left: 20px;
+     color:#0c0c5e;
+ }
+ 
+ .navbar-light .navbar-nav .active > .nav-link{
+     color:
+     #b30536
+     ;
+ }
+ 
+ /*                                    slider                                     */
+ 
+ .slider{
+     background-color:#DDDD;
+     height:100vh ;
+ }
+  /*تظبيط محاذاة النص*/
+  .slider .carousel-inner {
+     display:flex;
+     align-items: center;
+     justify-content:left;
+     height:800px ;
+     width: 1600px;
+}
+ 
+
+
+ /*text*/
+ .slider .carousel-inner h1{
+     /*We are a Formal 
+which recieve learners from
+all over the world*/
+     position:absolute;
+     color:#fff;
+     z-index:3;
+     font-size:40px;
+     max-width:900px;
+     line-height: 1.9;
+     left:25px;
+ }
+ @media(max-width: 768px){
+    .slider .carousel-inner h1{
+        left: auto;
+        max-width: 100%;
+        text-align: center;
+        font-size: 30px;
+        justify-content: center;
+    }
+ }
+ .slider .carousel-inner h1 span{
+     /*Community*/
+    background-color:#b30536 ;
+    color:#fff;
+    display:inline-block;
+    padding:1px 7px;
+ }
+
+ 
+ .slider .carousel-inner .overlay{
+     /*overlay*/
+     position:absolute;
+     width:100%;
+     height:100% ;
+     left:0;
+     top:0;
+     background-color: rgba(0,0,0, .6);
+     z-index:2;
+ }/*
+ 
+ .slider .carousel-item {
+    
+    
+     
+     -webkit-background-size:cover;
+     -moz-background-size:cover;
+     -o-background-size:cover;
+      background-size:cover;
+      
+ }*/
+ .w-100 {
+    width: 1600px;
+    height: 800px;
+}
+ /*الحل كان حط نس الطول ةالارتفاع للتنين هدول
+ .w-100 {
+    width: 1600px;
+    height: 500px;
+}
+ .slider .carousel-inner {
+     display:flex;
+     align-items: center;
+     justify-content:left;
+     height:500px ;
+     width: 1600px;
+}
+ */
+
+
+ /*
+
+  .slider .carousel-one {
+    background-image:url("../sliders/images/11.jpg");
+}
+
+ .slider  .carousel-two {
+    background-image: url("../sliders/images/222.jpg");
+
+}
+
+.slider .carousel-three {
+    background-image: url("../sliders/images/33.jpeg");
+
+}
+*/
+
+.slider .carousel-indicators li {
+    height: 8px;
+    cursor: pointer;
+    background-color: 
+    #b30536
+    ;
+}
+.features {
+    padding:50px 0;
+}
+.features i {
+    background-color: 
+    #b30536
+    ;
+    color: #FFF;
+    line-height: 50px;
+    width: 70px;
+    height: 70px;
+    padding: 12px;
+    margin-bottom: 10px;
+    margin-top: 65px;
+}
+@media (max-width:768px){
+    .features i {
+        margin-top: 160px;
+        margin-bottom: 20px;
+    }
+}
+.features h3{
+    color:#0c0c5e;
+    font-size:22px;
+}
+.features p{
+    color:#989898;
+    margin-bottom: 40px;
+}
+
+
+
+/*                               start overview                                    */
+
+.overview{
+    padding:100px;
+    background-color: #f0f5f7;
+
+}
+.overview h2{
+    font-size:60px;
+    text-transform:uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+@media(max-width:576px){
+    .overview h2{
+        font-size:30px;
+        text-transform:uppercase;
+        font-weight: bold;
+        margin-bottom: 20px; 
+    }
+}
+.overview p{
+    line-height: 2;
+    font-size: 20px;
+    width: 80%;
+    margin:0 auto 15px;
+    color:#6a6a6a;
+}
+@media(max-width:576px){
+    .overview p{
+        line-height: 1.5;
+        font-size: 20px;
+        width: 80%;
+        margin:0 auto 15px;
+        color:#6a6a6a;
+    }
+}
+
+.overview h4{
+    letter-spacing: 2px;
+    font-weight: normal;
+    color: #acacac;
+    margin-bottom: 40px;
+}
+@media(max-width:576px){
+    .overview h4{
+        letter-spacing:1px;
+        font-weight: normal;
+        color: #acacac;
+        margin-bottom: 20px;
+    }
+}
+
+.overview button{
+    background-color: 
+    #b30536
+    ;
+    color: #FFF;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid 
+    #b30536
+    ;
+}
+/*                                   end overview                                   */
+
+
+/*                                   start featured work                            */
+.featured-work {
+  padding: 100px;
+  
+}
+
+.featured-work h2{
+    font-size:60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+.featured-work p{
+    line-height: 1.6;
+    font-size: 20px;
+    width: 80%;
+    margin:0 auto 15px;
+    color:#6a6a6a;
+}
+
+.featured-work ul{
+    margin-top:40px ;
+    margin-bottom: 50px;
+}
+
+.featured-work ul li{
+color:#0c0c5e;
+border:2px solid #0c0c5e;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-left: 10px;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+}
+
+
+.featured-work ul li.active,
+.featured-work ul li:hover{
+    /*hover عطيناها صفات متل active
+    مشان اذا حدا قرب فوق التاب يتلون*/
+   background-color: 
+   #b30536
+   ;
+   border:2px solid 
+   #b30536
+   ;
+   color: #FFF;
+
+}
+.featured-work ul li:hover{
+cursor:pointer;}
+
+.featured-work .shuffle-images .row {
+    margin:0;
+}
+.featured-work .shuffle-images .row .col-sm {  
+    padding:0;
+    -webkit-transition: all .5s ease-in-out;
+   -moz-transition: all .5s ease-in-out;
+   -o-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
+
+.featured-work .row  img{
+    width: 100%;
+}
+/*                            end featured work                                    */
+
+
+
+
+/*                             start latest posts                                    */
+.latest-posts {
+    padding:0 0  100px;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    
+  }
+  
+  .latest-posts h2{
+      font-size:60px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+  
+  .latest-posts p{
+    line-height: 1.6;
+    font-size: 20px;
+    width: 80%;
+    margin:0 auto 45px;
+    color:#6a6a6a;
+    margin-bottom: 100px;
+}
+  /*تنسيق نص ال card*/
+  .latest-posts .section-description{
+      line-height: 1.6;
+      font-size: 20px;
+      width: 80%;
+      margin:0 auto 45px;
+      color:#6a6a6a;
+      margin-bottom: 100px;
+      padding-left: 0px;
+      margin-left: 0px;
+  }
+  .latest-posts .card{
+      margin-bottom:30px;
+  }
+
+  .latest-posts .card .card-title{
+      font-size:20px;
+      line-height: 1.5;
+      color:#0c0c5e;
+  }
+  .latest-posts .card .card-text{
+    color:#787878;
+    margin-bottom: 5px;
+    
+}
+
+.latest-posts .card .card-link{
+    color:
+    #b30536
+    ;
+    font-weight: bold;
+
+}
+/*                                end latest posts                                     */
+
+
+
+/*start testimonials*/
+.testimonials{
+     
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+     background-size:cover;
+     background-image: url('../images/111.jpg');
+    position: relative;/*ضروري مشان ال أوفرلاي يشتغل بوضع الأبسوليوت أي المطلق*/
+    height: 800px;
+    width:1600px;
+  
+    }
+
+.testimonials .overlay{
+    position:absolute;
+    width:100%;
+    height:100% ;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0, .4);
+    z-index:2;
+}
+
+.testimonials .container {
+    /*مشان الأسهم تكون فوق*/
+    position: relative;
+    z-index: 3;
+}
+
+
+
+/*end testimonials*/
+
+
+
+/*
+.img-fluid {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 515px;
+    margin-top: 200px;
+    z-index: 6;
+    width: 150px;
+}
+*/
+/*
+.carousel-inner {
+    position: relative;
+    width: 1600px;
+    height: 800px;
+    overflow: hidden;
+}
+*/
+
+
+
+
+/*                                      pricing table                               */
+.pricing-table {
+    padding: 100 0 100px;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    background-color:#f7f7f7 ;
+    
+  }
+  
+  .pricing-table h2{
+      font-size:60px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+  
+  .pricing-table p{
+    line-height: 1.6;
+    font-size: 20px;
+    width: 80%;
+    margin:0 auto 45px;
+    color:#6a6a6a;
+    margin-bottom: 100px;
+}
+  /*تنسيق نص ال card*/
+  .pricing-table .section-description{
+      line-height: 1.6;
+      font-size: 20px;
+      width: 80%;
+      margin:0 auto 45px;
+      color:#6a6a6a;
+      margin-bottom: 100px;
+      padding-left: 0px;
+      margin-left: 0px;
+  }
+ 
+  .pricing-table .card{
+      margin-bottom:30px;
+  }
+  .pricing-table .card-body {
+      padding:0;
+  }
+
+  .pricing-table .card .card-title{
+      font-size:20px;
+      line-height: 1.5;
+      color:#0c0c5e;
+      font-size: 20px;
+      margin-top: 40px;
+  }
+  .pricing-table .card .card-text{
+    padding-left: 75px;
+    margin-left: 40px;
+    color: #0c0c5e;
+    margin-bottom: 5px;
+    background-color: #f7f7f7;
+    font-size: 30px;
+    font-weight: bold;
+}
+ 
+.pricing-table .card .card-text span {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.pricing-table .list-group-item{
+    border:none;
+}
+
+.pricing-table .card .card-link{
+    color:#FFF;
+    font-weight: bold;
+    background-color: 
+    #b30536
+    ;
+    display: inline-block;
+    padding:10px 15px;
+    margin-top: 15px;
+    margin-bottom:30px ;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 110px;
+
+}
+
+
+.pricing-table .card.small {
+    position:relative; 
+    top:-20px;
+}
+
+.pricing-table .card.small .card-text{
+    background-color: 
+    #b30536
+    ;
+    color:#FFF;
+}
+
+.pricing-table .card.small .card-link{
+    background-color: #0c0c5e;
+}
+.list-group-item {
+    text-align: center;
+}
+/*                              end pricingg table                                     */
+
+
+
+/*                             start why choose us                                         */
+.why-choose-us img {
+max-width: 100%;
+}
+
+.why-choose-us .col-6 {
+    padding: 0;
+    
+}
+
+.why-choose-us .col-6:last-child {
+  background-color: #0c0c5e;
+  color: #FFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.why-choose-us h2{
+    margin: 30px;
+}
+.why-choose-us p{
+    margin: 40px;
+    line-height: 2;
+    font-size: 18px;
+}
+.why-choose-us a{
+    display: inline-block;
+    padding:8px 20px ;
+    margin: 0 0 0 40px;
+    background-color: 
+    #b30536
+    ;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*                             end why choose us                                         */
+
+
+
+/*start stats*/
+.stats{
+padding: 100px;
+color: #0c0c5e;
+}
+
+
+.stats .number{
+display:block;
+font-size: 30px;
+font-weight: bold;
+padding-left: 15px;
+}
+.stats p{
+    color:
+    #b30536
+    ;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+/*end stats*/
+
+
+/*start contact us*/
+.contact-us {
+    padding:80px 0;
+    background-color: 
+    #b30536
+    ;
+    color: #FFF;
+    font-size: 25px;
+}
+.contact-us p{
+ margin: 0;
+}
+@media(max-width:992px){
+    .contact-us p{  
+        margin-bottom: 40px;
+}}
+
+.contact-us a{
+color:#FFF;
+border: 2px solid #FFF;
+padding:6px 15px 8px;
+text-transform: uppercase;
+font-weight: bold;
+}
+  
+
+/*end contact us*/
+/*start contact us*/
+
+.footer{
+padding:100px 0 ;
+}
+
+.footer .site-info h2{
+font-size:50px;
+margin-bottom: 35;
+}
+
+
+.footer .site-info  h2 span:first-child{
+    /*Elite*/
+    font-weight: bold;
+   color:#0c0c5e;
+}
+.footer .site-info  h2 span:last-child{
+    /*Crop*/
+    color:
+    #b30536
+    ;
+ }
+ .footer .site-info p{
+     line-height:1.8;
+     color: #727272;
+ }
+ .footer .site-info a{
+     color:#0c0c5e;
+     font-size: 15px;
+     font-weight: bold;
+ }
+ .footer .site-info a::before {
+     /*السهم اللي قبل Read more*/
+     font-family: 'FontAwesome';
+     content: "\f138";
+     display: inline-block;
+     margin-right: 5px;
+ }
+ .footer .helpful-links h2
+ .footer .contact h2{
+  font-size: 22px;
+margin-bottom: 68px;
+  color:#0c0c5e;
+
+ }
+
+ .footer .helpful-links ul li:before {
+    font-family: 'FontAwesome';
+    content: "\f054";
+    display: inline-block;
+    margin-right: 5px;
+    color: #0c0c5e;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+ }
+ .footer .contact ul li{
+     margin-bottom: 20px;
+ }
+/*end Footer*/
+
+/*start copyright*/
+.copyright{
+    border-top: 1px solid #0c0c5e;
+    padding: 20px;
+    
+}
+.copyright ul li{
+    display: inline-block;
+  
+}
+.copyright ul li a{
+    color: #777;
+    margin-left:20px;
+    font-size: 17px;
+    display: inline-block;
+    
+    }
+/*end copyright*/
